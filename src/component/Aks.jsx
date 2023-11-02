@@ -63,7 +63,7 @@ let uuid =uuidv4()
         value={input}
         onChange={handlechange}
       />
-      <button onClick={handleADD}>Add</button>
+      <button onClick={handleADD}>Add checking</button>
 
       {todolist.map((todo, index) => (
         <div key={index}>
